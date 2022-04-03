@@ -1,0 +1,27 @@
+etap 1:
+W mainie konstruuje 4 napoje,  nastepnie umieszczam adresy tych napoi do tablicy wskaznikow na napoje. 
+Tablica ta jest pozniej przekazywana do konstruktora klasy vending_machine do stworzenia wektora wskaznikow do napoi.
+Dzieki temu, gdybyśmy chcieli rozszerzyc nasz automat o kolejny drink wystarczy w mainie stworzyc kolejny drink i dodac jego adres do ww. tablicy.
+Po uruchomieniu programy kupujący widzi menu z dosepnymi napojami, cenami i ilościami dostępnych sztuk.
+Wybieramy interesujący nas drink (1-4). Inne wprowadzone znaki zakończą działanie programu.
+Po wybraniu napoju wyświetlany jest komunikat informujacy o wybranym napoju i jego cenie, informacja o metodzie wprowadzania monet.
+Po wrzuceniu coins, aż do zapłacenia, wyświetlany jest komunikat o wpłaconej sumie i pozostającej do zapłaty.
+Gdyby użytkownik wybrał zły nomianał (wpisał np. 45) ponownie wyświetlana jest informacja o metodzie wprowadzania monet.
+Gdy już zapłacimy wyświetlany jest komunikat o sfinalizowanej transakcji i ponownie wyświetlane jest menu z dostępnymi 
+napojami, ilść kupionego napoju zmniejsza się o 1.
+Gdy napój się skończy przy ilości wyświetlana jest informacja o tym, że produkt jest niedostępny.
+W przypadku gdyby użytkownik jednak wybrał niedostępny napój wyświetlana jest informacja o tym, że jest niedostępny i ponownie wyświetlane jest menu.
+Chcąc wyjść wciskamy 0 lub inny znak.
+
+
+
+etap 2:
+W mainie konstruuje 3 sposoby platnosci, nastepnie umieszczam adresy tych sposobow do tablicy wskaznikow na platnosci.
+Tablica ta jest pozniej przekazywana do konstruktora klasy vending_machine do stworzenia wektora wskaznikow na sposoby platnosci.
+Dziaki temu, gdybysmy chcieli zmienic sposoby platnosci, ktoras z nich usunac, albo dodac jakas nowa, wystarczy zmiana dwoch linijek w mainie i ewentualnie dodanie plikow zawierajacych nowe klasy sposobow platnosci.
+Umozliwia to tez zmiane kolejnosci wypisywania tych sposobow, wystarczy wpisac w innej kolejnosci do tablicy.  
+
+
+etap 3:
+Szablon klasy zrealizowałem jako container. Służy on do przchowywania obiektów klas napój i płatnosć.
+Wyjątki rzucane są przez funkcję choosePayment, i łapane są w mainie

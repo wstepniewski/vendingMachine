@@ -1,0 +1,3 @@
+D:/Semestr_3/obiektowka/vendingMachine/cmake-build-debug/CMakeFiles/vendingMachine.dir
+D:/Semestr_3/obiektowka/vendingMachine/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Semestr_3/obiektowka/vendingMachine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
